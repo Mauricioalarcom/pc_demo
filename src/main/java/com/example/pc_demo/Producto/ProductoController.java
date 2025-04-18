@@ -44,6 +44,11 @@ public class ProductoController {
         return ResponseEntity.ok(productos);
     }
 
+    @GetMapping
+    public ResponseEntity<Producto> getProducto(@RequestParam Integer id) {
+        return ResponseEntity.ok()
+    }
+
 
 
 }
